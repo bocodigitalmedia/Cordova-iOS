@@ -22,7 +22,7 @@ http://pspdfkit.com/license.html</license>
 		<source-file src="PSPDFKitPlugin/PSPDFKitPlugin.m"/>
 		<header-file src="PSPDFKitPlugin/PSPDFKitPlugin.h"/>
 		
-		<framework parent="/*" src="frameworks/PSPDFKit/PSPDFKit.framework" custom="true"/>
+		<framework parent="./" src="frameworks/PSPDFKit/PSPDFKit.framework" custom="true"/>
 		<framework src="CoreText.framework" />
 		<framework src="QuartzCore.framework" />
 		<framework src="MessageUI.framework" />
